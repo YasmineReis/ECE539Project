@@ -31,7 +31,7 @@ df = df[df.brand.isin(lst) == False]
 lst2=['andere','bus']
 df = df[df.vehicleType.isin(lst2) == False]
 
-#should now be at 127,361 rows
+#should now be at 192,472 rows
 print(df)
 
 #CLEAN, READY TO VISUALIZE
