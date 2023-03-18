@@ -28,7 +28,7 @@ df = df[df.brand.isin(lst) == False]
 
 #removing buses and "andere"(other) from car type
 #print(df['vehicleType'].unique())
-lst2=['andere','bus','limousine']
+lst2=['andere','bus']
 df = df[df.vehicleType.isin(lst2) == False]
 
 #should now be at 127,361 rows
