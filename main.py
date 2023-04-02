@@ -37,14 +37,13 @@ df = df[df.vehicleType.isin(lst2) == False]
 
 #should now be at 184,096 rows
 #print(df)
-
 #CLEAN, READY TO VISUALIZE
 
 #scatterplot of price vs year of registration
 #df.plot.scatter(x = "price", y = "yearOfRegistration")
 #plt.show()
 
-#df.plot.hist(by = "powerPS")
+#df.plot.scatter(x = "brand", y = "price")
 #plt.show()
 
 
